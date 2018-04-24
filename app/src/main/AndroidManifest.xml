@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thanglongsp.tuoicay">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClickOk">
+        </activity>
+        <activity android:name=".UpdateOk">
+        </activity>
+        <activity android:name=".Unupdate">
+        </activity>
+        <activity android:name=".Guide">
+        </activity>
+        <activity android:name=".GopY">
+        </activity>
+        <activity android:name=".Gaitri">
+        </activity>
+        <activity android:name=".Hoso">
+        </activity>
+        <activity android:name=".UpdatePro">
+        </activity>
+        <activity android:name=".ClickCancel">
+        </activity>
+    </application>
+
+</manifest>

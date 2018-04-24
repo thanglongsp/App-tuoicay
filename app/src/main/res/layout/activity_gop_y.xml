@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GopY"
+    android:background="#7FFF00">
+
+    <EditText
+        android:layout_width="383dp"
+        android:layout_height="257dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:background="#F0F8FF"
+        android:hint="Góp ý cho chúng tôi ở đây ..."
+        android:inputType="none|textMultiLine" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#DC143C"
+        android:text="Góp ý" />
+
+    <Button
+        android:id="@+id/btnGui"
+        android:background="@drawable/stylebuttoncancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="188dp"
+        android:layout_marginEnd="38dp"
+        android:text="Gửi"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="38dp" />
+</RelativeLayout>

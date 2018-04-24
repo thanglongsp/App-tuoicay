@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/tree">
+
+    <Button
+        android:id="@+id/btnOk"
+
+        android:layout_width="184dp"
+        android:layout_height="48dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:background="@drawable/stylebuttonok"
+        android:text="Ok"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="369dp"
+        android:layout_alignLeft="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="-35dp"
+        android:background="@drawable/stylebuttoncancel"
+        android:text="Cancel"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="369dp"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_marginLeft="-35dp"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
+        android:text="Bạn muốn tưới cây ?"
+        android:textColor="#DC143C"
+        android:background="#00FFFF"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Chung tay vì môi trường xanh sạch đẹp"
+        android:textColor="#7FFF00"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="83dp"
+        android:text="I"
+        android:textColor="#DC143C"
+        android:textSize="50dp"
+        android:layout_marginLeft="83dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="HUST"
+        android:textColor="#DC143C"
+        android:textSize="50dp"
+        android:layout_alignRight="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="116dp"
+        android:layout_height="67dp"
+        android:layout_below="@+id/textView2"
+        android:layout_toStartOf="@+id/textView4"
+        app:srcCompat="@drawable/heart1"
+        tools:ignore="UnknownId"
+        android:layout_toLeftOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="82dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/birt"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/bntGuide"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/stylebutton"
+            android:text="Hướng dẫn" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/stylebutton"
+            android:text="Giải trí" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/bntProfile"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/button3"
+            android:layout_toStartOf="@+id/button3"
+            android:background="@drawable/stylebutton"
+            android:text="Hồ sơ" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/bntGopy"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_toEndOf="@+id/bntGuide"
+            android:layout_toRightOf="@+id/bntGuide"
+            android:background="@drawable/stylebutton"
+            android:text="Góp ý" />
+    </LinearLayout>
+</RelativeLayout>

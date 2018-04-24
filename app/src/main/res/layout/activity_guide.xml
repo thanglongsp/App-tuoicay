@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Guide"
+    android:background="#7FFF00">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="362dp"
+        android:layout_height="441dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+        android:background="#FF7F50"
+        android:text="+ Bấm vào nút OK để thực hiện chức năng tưới cây\n+ Bấm vào nút cancel để có thể chọn cây để tưới\n+ Bấm vào nút Hồ Sơ để xem thông tin cá nhân của bạn\n+ Bấm vào nút thư giãn để nghe 1 số bản nhạc hay \n+ Bấm vào nút góp ý để góp ý cho chúng tôi\n+ Liên hệ với chúng tôi : 096969696969"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:background="#DC143C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Hướng dẫn"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>

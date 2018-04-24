@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map"
+    tools:context=".ClickOk">
+
+    <ImageView
+        android:layout_width="29dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/tree4" />
+
+    <ImageView
+        android:layout_width="29dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/tree4"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:layout_width="29dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/tree4" />
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="108dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/tree4" />
+
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView7"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        app:srcCompat="@drawable/tree4"
+        tools:ignore="UnknownId" />
+
+    <ImageView
+        android:layout_width="43dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginTop="127dp"
+        app:srcCompat="@drawable/tree4" />
+
+    <ImageView
+        android:layout_width="44dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="174dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        app:srcCompat="@drawable/tree4" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginEnd="169dp"
+        android:layout_marginRight="169dp"
+        app:srcCompat="@drawable/vt"
+        tools:ignore="UnknownId" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="54dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="231dp"
+        app:srcCompat="@drawable/tree4" />
+
+    <ImageView
+        android:id="@+id/staRed"
+        android:layout_width="65dp"
+        android:layout_height="57dp"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginLeft="-11dp"
+        android:layout_marginStart="-11dp"
+        android:layout_marginTop="182dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/water_red" />
+
+    <ImageView
+        android:id="@+id/staBlue"
+        android:layout_width="39dp"
+        android:layout_height="44dp"
+        android:layout_alignBottom="@+id/staRed"
+        android:layout_marginBottom="9dp"
+        android:layout_marginStart="-8dp"
+        android:layout_toEndOf="@+id/imageTuoi"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/water_blue"
+        tools:ignore="UnknownId"
+        android:layout_marginLeft="-8dp"
+        android:layout_toRightOf="@+id/imageTuoi" />
+
+    <view
+        class="android.support.v7.widget.ActionMenuView"
+        id="@+id/view"
+        layout_alignParentBottom="true"
+        layout_alignParentStart="true"
+        layout_alignStart="@+id/imageView"
+        layout_marginBottom="52dp"
+        layout_marginStart="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorAccent"
+        android:text="Tên cây : Cây lá đỏ\nLượng nước cần : 2lit\nLoại bình : xxx 4Lit"
+        android:textColor="#A52A2A"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="131dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="186dp"
+        app:srcCompat="@drawable/tap" />
+
+    <ImageView
+        android:id="@+id/imageTuoi"
+        android:layout_width="87dp"
+        android:layout_height="83dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/water_clipart" />
+
+    <ImageView
+        android:id="@+id/imgEx"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="192dp"
+        app:srcCompat="@drawable/finger" />
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hoso"
+    android:background="#7FFF00">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="340dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="127dp"
+        android:background="#F0FFFF"
+        android:text="\n+ Họ Tên : lÒ lỪU ĐẠN\n\n+ Giới tính : Chưa xác định\n\n+ Gmail:luudantuno@gmail.com\n\n+ Nghề nghiệp : Multil level\n\n+ Lần tưới cây gần nhất : 24/04/2018"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#DC143C"
+        android:text="Hồ sơ" />
+
+    <Button
+        android:id="@+id/btnUpdatePro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="63dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/stylebuttoncancel"
+        android:text="Cập nhật"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp" />
+</RelativeLayout>

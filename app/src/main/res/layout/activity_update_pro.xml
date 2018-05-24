@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UpdatePro"
-    android:background="#7FFF00">
+    android:background="@drawable/guide1">
 
 
     <Button
@@ -16,7 +16,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:background="#DC143C"
+        android:background="#03fce7"
         android:text="Cập nhật hồ sơ" />
 
     <EditText

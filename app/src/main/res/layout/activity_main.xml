@@ -118,6 +118,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
+            android:textColor="#FFFFFF"
             android:layout_alignParentStart="true"
             android:background="@drawable/stylebutton"
             android:text="Hướng dẫn" />
@@ -129,6 +130,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
+            android:textColor="#FFFFFF"
             android:layout_alignParentRight="true"
             android:background="@drawable/stylebutton"
             android:text="Giải trí" />
@@ -139,6 +141,7 @@
             android:layout_width="114dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            android:textColor="#FFFFFF"
             android:layout_toLeftOf="@+id/button3"
             android:layout_toStartOf="@+id/button3"
             android:background="@drawable/stylebutton"
@@ -153,6 +156,7 @@
             android:layout_marginLeft="0dp"
             android:layout_marginStart="0dp"
             android:layout_toEndOf="@+id/bntGuide"
+            android:textColor="#FFFFFF"
             android:layout_toRightOf="@+id/bntGuide"
             android:background="@drawable/stylebutton"
             android:text="Góp ý" />

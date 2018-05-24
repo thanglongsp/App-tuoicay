@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Guide"
-    android:background="#7FFF00">
+    android:background="@drawable/guide1">
 
     <TextView
         android:id="@+id/textView5"
@@ -15,13 +15,14 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="101dp"
-        android:background="#FF7F50"
+        android:background="#00695f05"
+        android:textColor="#131313"
         android:text="+ Bấm vào nút OK để thực hiện chức năng tưới cây\n+ Bấm vào nút cancel để có thể chọn cây để tưới\n+ Bấm vào nút Hồ Sơ để xem thông tin cá nhân của bạn\n+ Bấm vào nút thư giãn để nghe 1 số bản nhạc hay \n+ Bấm vào nút góp ý để góp ý cho chúng tôi\n+ Liên hệ với chúng tôi : 096969696969"
         android:textSize="20dp" />
 
     <Button
         android:id="@+id/button"
-        android:background="#DC143C"
+        android:background="#0af5d2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"

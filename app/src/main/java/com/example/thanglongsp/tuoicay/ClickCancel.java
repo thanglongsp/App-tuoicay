@@ -7,11 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
 public class ClickCancel extends AppCompatActivity {
     private Image imgView;
+    private Image imgViewDunuoc;
 
     ArrayList<thongbao> arrayThongbao;
     @Override
@@ -20,6 +22,8 @@ public class ClickCancel extends AppCompatActivity {
         setContentView(R.layout.activity_click_cancel);
         addThongbao();
         final ImageView imgView = (ImageView)findViewById(R.id.imageView);
+        final ImageView imgViewDunuoc = (ImageView)findViewById(R.id.imageViewDunuoc);
+
         imgView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -29,10 +33,20 @@ public class ClickCancel extends AppCompatActivity {
                 mediaPlayer.start();
             }
         });
+
+        imgViewDunuoc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mediaPlayer = MediaPlayer.create(ClickCancel.this,arrayThongbao.get(1).getFile());
+                mediaPlayer.start();
+                Toast.makeText(getApplicationContext(),"Cây đã đủ nước!", Toast.LENGTH_LONG).show();
+            }
+        });
     }
 
     private void addThongbao() {
         arrayThongbao = new ArrayList<>();
         arrayThongbao.add(new thongbao(R.raw.translateok));
+        arrayThongbao.add(new thongbao(R.raw.dunuoc));
     }
 }

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GopY"
-    android:background="#7FFF00">
+    android:background="@drawable/gopy">
 
     <EditText
         android:layout_width="383dp"
@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="94dp"
-        android:background="#F0F8FF"
+        android:background="#fcd2f3"
         android:hint="Góp ý cho chúng tôi ở đây ..."
         android:inputType="none|textMultiLine" />
 
@@ -25,7 +25,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:background="#DC143C"
+        android:background="#fa6af3"
         android:text="Góp ý" />
 
     <Button
